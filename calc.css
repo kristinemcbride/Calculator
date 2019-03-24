@@ -1,0 +1,97 @@
+
+
+
+.calculator{
+  display: grid;
+  width: 500px;
+  height: 800px;
+  grid-template-rows: 20% 80%;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  margin: 100px;
+  
+}
+
+.calculator-keys {
+display: grid;
+width: 500px;
+grid-template-rows: 20% 20% 20% 20% 20%;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+button {
+  
+  background-color: #c3c3c3;
+  font-family: Arial;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 10px;
+  background-color: #c3c3c3;
+  border: 2px black solid;
+  opacity: 1;
+
+}
+
+
+button:hover {
+	
+	opacity: 0.6;
+}
+
+#buttonClear {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#buttonDiv {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+
+
+
+ #buttonDec{
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+#button0{
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#buttonEq {
+	background-color: orange;
+	border: 2px black solid;
+  color: black;
+	grid-row-start: 3;
+ 	grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 5;
+
+}
+
+#calculator-screen {
+  background-color: black;
+  color: white;
+  border: 2px black solid;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  font-family: Arial;
+  font-size: 60px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+
+
